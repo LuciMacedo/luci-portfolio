@@ -12,7 +12,7 @@ export const HeaderWrapper = styled.header`
 
   article {
     width: 50%;
-    padding: 8rem;
+    padding: 4rem;
 
     strong {
       color: ${(props) => props.theme['red']};
@@ -54,9 +54,10 @@ export const HeaderWrapper = styled.header`
   }
 
   img {
-    width: 35%;
-    height: 35%;
-    
+    width: 40%;
+    height: 40%;
+    margin-bottom: 8rem;
+    padding: 1rem;
   }
 
   @media (max-width: 768px) {
@@ -74,7 +75,7 @@ export const HeaderWrapper = styled.header`
       width: 70%;
       height: 70%;
       padding: 0.5rem;
-      margin-left: 2.5rem;
+      margin: auto 2.5rem;
     }
   }
 
