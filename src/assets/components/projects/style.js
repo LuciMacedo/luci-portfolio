@@ -6,19 +6,19 @@ export const ProjectStyle = styled.main `
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 4rem 8rem;
   
   section {
     display: flex;
     justify-content: center;
     color: white;
-    width: 35rem;
+    width: 28rem;
     height: 20rem;
     position: relative;
       
       img {
       border-radius: 10px;
-      width: 35rem;
+      width: 28rem;
       height: 20rem;
       box-shadow: 8px 11px 33px 5px rgba(0,0,0,0.59)
       }
@@ -37,7 +37,7 @@ export const ProjectStyle = styled.main `
         
         h1 {
           color: ${(props) => props.theme['red']};
-          margin: 1.5rem auto;
+          margin: 0.7rem auto;
         }
         p {
           margin: .2rem auto;

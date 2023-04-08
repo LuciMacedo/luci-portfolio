@@ -13,6 +13,15 @@ export const skills = [
   { 
     tecnology: 'REACT',
   },
+  { 
+    tecnology: 'PYTHON',
+  },
+  { 
+    tecnology: 'GIT',
+  },
+  { 
+    tecnology: 'GITHUB',
+  },
 ]
 
 

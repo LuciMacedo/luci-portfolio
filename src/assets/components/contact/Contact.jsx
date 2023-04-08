@@ -25,7 +25,6 @@ export function Contact() {
           <Envelope size={24} />
           <p>Email</p>
         </a>
-
       </ContactStyle>
 
       <Author>

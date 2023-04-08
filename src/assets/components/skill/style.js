@@ -22,20 +22,23 @@ export const Skill = styled.article`
   margin-top: -1rem;
   gap: 1rem;
   padding: 1rem;
-  flex-direction: column; 
+  flex-direction: row; 
   justify-content: center;
   align-items: center;
   background: ${(props) => props.theme['black-500']};
 
   div {
-    width: 40%;
+    width: 30%;
     background: ${(props) => props.theme['black-500']};
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     gap: 1rem;
     padding: 1rem;
     margin: 1rem;
     border: 3px solid ${(props) => props.theme['red']};
     border-radius: 10px;
   }
+  
 `
 
