@@ -1,7 +1,7 @@
 import { HeaderWrapper } from "./style"
 import LuciPic from '../../img/luci5.webp'
 import { DownloadSimple } from "phosphor-react";
-import luciResume from '../../img/lucicv.pdf'
+import luciResume from '../../img/LuciMacedoCV.pdf'
 
 export function Header() {
 
