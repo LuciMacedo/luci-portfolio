@@ -10,7 +10,7 @@ export function Header() {
       <article>
         <strong>Hello! I am Luci</strong>
         <h1>Junior Software Engineer</h1>
-        <p>I am passionate about making online life easier with a touch of beauty. Back in 2020, I decided to embark on a career change and started my journey to become a software engineer. I take pride in every line of code and every step of progress I make. As a focused, results-driven, and highly capable Junior Software Engineer, I offer sound theoretical knowledge and practical experience across projects.</p>
+        <p>I'm driven by a deep passion for simplifying the online world and making life easier for users. In 2020, I decided to pursue a career as an Software Engineer, and since then, I've poured my heart into every line of code I write and every milestone I achieve. As a dedicated and results-oriented Junior Software Engineer, I bring a unique blend of theoretical expertise and hands-on experience gained from working on various projects. My commitment to excellence ensures that I consistently deliver high-quality work and drive impactful results. I am eager to contribute my skills and knowledge to your team and help create innovative solutions that will leave a lasting impact.</p>
         <button>
           <a href={luciResume} target="_blank" download>
             Download CV 
