@@ -31,6 +31,7 @@ export const Skill = styled.article`
     width: 30%;
     background: ${(props) => props.theme['black-500']};
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
@@ -40,5 +41,11 @@ export const Skill = styled.article`
     border-radius: 10px;
   }
   
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
 `
 
